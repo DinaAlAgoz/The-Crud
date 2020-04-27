@@ -1,0 +1,139 @@
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.tittle h2  {
+border-bottom: 1px solid #10101080;
+    padding: 3rem 3rem 2rem;
+    color: #808080cc;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+
+.contain {
+
+    background-color: #EEEEEE;
+}
+
+.contain .box {
+
+    padding-top: 35px;
+}
+
+.contain .box h3 {
+
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contain .box input {
+
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    max-height: 2em;
+    margin-bottom: 10px;
+}
+
+.contain .box p {
+
+    font-weight: bold;
+    color: #333;
+
+}
+
+.btn2 button {
+
+    display: inline-block;
+}
+
+
+.contain .btn button {
+
+    background-color: #1167c4;
+    color: white;
+    border: 1px solid #1167c4;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 15px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: fit-content;
+    display: inline-block;
+   
+}
+
+.contain .btn button:hover {
+
+    background-color: #0A3F77;
+    box-shadow: 2px 5px 3px 0px #888 ;
+
+}
+
+
+.alert {
+
+    padding: 5px;
+    margin: 10px;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.alert-error {
+
+    background-color: #ffb2b2;
+    color: #6d0000;
+    border: 1px solid #6d0000;
+}
+
+.BookmarkContainer {
+
+    background-image: linear-gradient(#EEE,#FFF);
+
+    border-bottom: 1px solid black;
+
+    
+}
+
+.BookmarkContainer .box {
+
+    padding: 1rem 1rem 3rem;
+    margin-bottom: 30px;
+}
+
+.BookmarkContainer .box h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 20px 135px 20px 20px;
+    display: inline-block;
+}
+
+.BookmarkContainer .btn {
+
+    margin-right: 15px;
+}
+
+.fotter p {
+
+    padding: 2rem;
+    color: #AAA;
+    font-weight: bold;
+}
+
+.update button {
+
+    background-color: #6d0000 !important
+}

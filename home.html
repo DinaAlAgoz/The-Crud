@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <section>
+        <div class="tittle">
+            <div class="container">
+                <div class="line">
+                    <h2>Bookmarker</h2>
+                </div>
+            </div>
+        </div>
+
+            <div class="container text-center my-5">
+                <div class="contain ">
+                <div class="box">
+    
+                    <h3>Bookmark your favorite sites</h3>
+    
+                    <p>Site Name</p>
+                 
+                    <div class="form" id="error"></div>
+                    <input class="form-control"  id="siteName" type="text" name="name" placeholder="Bookmark Name">
+                    <div id="nameerror" ></div>
+                    
+            
+                    <p>Site URL</p>
+               <div >
+                    <input class="form-control"  id="siteUrl" type="text" name="URL" placeholder="Website URL">
+                    <div id="urlerror" ></div>
+                </div>
+                    <div class="btn">
+                    
+                    <button  id="addBtn" onclick="addbookmark()"  class="btn btn-primary">Submit</button>
+                    <div id="ADDupdate" ></div>
+                
+                
+                    </div>
+                </div>
+                </div>
+            </div>
+      
+    
+    
+        <div class="container bigbox" id="Body">
+
+        
+
+        </div>
+
+
+
+
+        <div class="container">
+            <div class="fotter">
+                <p>© 2019 Bookmarker Inc.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/fox.js"></script>
+</body>
+</html>
